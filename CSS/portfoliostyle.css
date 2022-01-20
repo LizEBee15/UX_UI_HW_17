@@ -31,7 +31,7 @@ body {
     text-decoration: none;
 }
 
-.logo {
+.Toplogo {
    font-size: 32px;
    display: flex;
    
@@ -64,8 +64,10 @@ background-color: black;
 
 display: flex;
 flex-direction: row;
+margin: 5% auto;
+width: 85%;
 align-items: center;
-justify-content:space-around;
+justify-content:space-evenly;
 }
 
 #scrollDown {
@@ -74,10 +76,59 @@ justify-content:space-around;
     justify-content: space-evenly;
 }
 
-#skillsSection {
-    display: grid;
+.skillsContainer {
+    display: flex;
+    margin-top: 10%;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #f8f5f2;
+    padding: 80px;
+}
+
+.skills {
+    padding: 20px;
+    justify-content: space-between;
     
 }
+
+.projectContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+    position: relative;
+}
+
+.projectCard {
+    text-align: center;
+    background-color: #e3d9cf;
+    border-radius: 7px;
+    height: 564px;
+    width: 439px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.logo {
+    mix-blend-mode: luminosity;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
 
 
